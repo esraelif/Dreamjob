@@ -1,0 +1,65 @@
+/* ................1-NAVBAR................ */
+
+.navbar-nav {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #dc3545 !important;
+}
+/* .................CAROUSEL........... */
+
+.carousel-item {
+  max-height: calc(100vh -88px);
+}
+.carousel-caption .btn {
+  width: 7rem;
+}
+.carousel-caption h5 {
+  color: #dc3545;
+  font-size: 2.4rem;
+  text-shadow: 3px 3px 3px black;
+}
+.carousel-caption p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+.carousel-caption {
+  /* border: 2px solid red; */
+  bottom: 15rem;
+}
+
+.carousel-indicators button {
+  background-color: #dc3545 !important;
+  padding: 0.1rem !important;
+  width: 3rem !important;
+}
+
+/* ..........3-ABOUT............ */
+.bi {
+  font-size: 3rem;
+  color: #dc3545;
+}
+
+/* ............4-INSTRUCTORS........... */
+.card .bi {
+  font-size: 2rem;
+}
+
+.card .bi:hover {
+  opacity: 0.5 !important;
+}
+section#instructors .card {
+  transition: all 0.5s;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.03);
+}
+
+
+
+/* ..........COURSES.......... */
+}
