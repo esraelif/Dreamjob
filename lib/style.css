@@ -1,65 +1,121 @@
-/* ................1-NAVBAR................ */
+:root{
+  --red:#dc3545;
+}
 
-.navbar-nav {
-  font-size: 1.2rem;
+/*! -------------- 1- NAVBAR ----------------------- */
+.navbar-nav{
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.nav-link:hover {
-  color: #dc3545 !important;
+.navbar .nav-link:hover{
+  color: var(--red) !important;
 }
-/* .................CAROUSEL........... */
+/*! -------------- 2- CAROUSEL --------------------- */
+.carousel-item{
+  max-height: calc(100vh - 88px);
+}
 
-.carousel-item {
-  max-height: calc(100vh -88px);
-}
-.carousel-caption .btn {
+.carousel-caption .btn{
   width: 7rem;
 }
-.carousel-caption h5 {
-  color: #dc3545;
+.carousel-caption h5{
+  color: var(--red);
   font-size: 2.4rem;
   text-shadow: 3px 3px 3px black;
 }
-.carousel-caption p {
+
+.carousel-caption p{
   text-shadow: 3px 3px 3px black;
   font-weight: 600;
 }
-.carousel-caption {
+
+.carousel-caption{
+  bottom: 5rem;
   /* border: 2px solid red; */
-  bottom: 15rem;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
-.carousel-indicators button {
-  background-color: #dc3545 !important;
+.carousel-indicators button{
+  background-color: var(--red) !important;
   padding: 0.1rem !important;
   width: 3rem !important;
 }
-
-/* ..........3-ABOUT............ */
-.bi {
+/*! -------------- 3- ABOUT SECTION ---------------- */
+.bi{
   font-size: 3rem;
-  color: #dc3545;
 }
 
-/* ............4-INSTRUCTORS........... */
-.card .bi {
+/*! -------------- 4- INSTRUCTORS ------------------ */
+.card .bi{
   font-size: 2rem;
+  color: var(--red);
+  transition: all .5s;
+}
+.card .bi:hover{
+  opacity: 0.5;
 }
 
-.card .bi:hover {
-  opacity: 0.5 !important;
+section#instructor .card{
+  transition: all .5s;
 }
-section#instructors .card {
-  transition: all 0.5s;
-}
-
-section#instructors .card:hover {
+section#instructor .card:hover{
   transform: scale(1.03);
 }
 
+/*! -------------- 4- STUDENTS SECTION ------------- */
 
+/*! -------------- 5- COURSES SECTION -------------- */
 
-/* ..........COURSES.......... */
+section#courses .nav-link.active{
+  background-color: var(--red);
 }
+
+section#courses .nav-link{
+  color: white;
+}
+
+section#courses .nav-pills{
+  font-size: 0.8rem;
+}
+
+/*! -------------- 6- CONTACT SECTION -------------- */
+
+section#contact i{
+  color: var(--red) !important;
+}
+section#contact a{
+  color: var(--red) !important;
+  text-decoration: none;
+}
+
+/* .btn-submit{
+  background-color: var(--red);
+  color: white;
+}
+.btn-submit:hover{
+  background-color: #c2414d;
+  color: white;
+} */
+
+/*! -------------- 7- FOOTER ----------------------- */
+
+
+footer i {
+  color: white;
+  font-size: 2rem;
+  margin-right: 0.8rem;
+  transition:  color .6s;
+}
+footer i:hover{
+  color: var(--red);
+}
+
+
+
+
+
+
